@@ -34,8 +34,7 @@
                                 <p class="card-text">keterangan parkiran 1</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        <a href="/parkiran"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
                                     </div>
                                     <small class="text-muted"></small>
                                 </div>
@@ -52,7 +51,6 @@
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
                                     <small class="text-muted"></small>
                                 </div>

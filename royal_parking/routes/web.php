@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\web;
+use App\Http\Controllers\webController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,10 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('page2.layouts.home');
-});
+Route::get('/', [webController::class,'index']);
 
-Route::get('parkiran', function () {
-    return view('page1.layouts.navbar');
-});
+Route::get('kendaraan', [webController::class,'kendaraan']);

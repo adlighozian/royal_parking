@@ -5,7 +5,7 @@ namespace Database\Factories;
 use App\Models\parkiran;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class ParkiranFactory extends Factory
+class parkiranFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.

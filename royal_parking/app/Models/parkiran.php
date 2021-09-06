@@ -15,5 +15,4 @@ class parkiran extends Model
     {
         return $this->hasMany(kendaraan::class);
     }
-
 }

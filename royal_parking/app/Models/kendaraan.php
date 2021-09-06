@@ -16,5 +16,4 @@ class kendaraan extends Model
         return $this->belongsTo(parkiran::class);
     }
 
-
 }

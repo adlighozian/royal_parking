@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\web;
 use App\Http\Controllers\webController;
+use App\Http\Controllers\loginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,6 +15,11 @@ use App\Http\Controllers\webController;
 |
 */
 
-Route::get('/', [webController::class,'index']);
 
-Route::get('kendaraan', [webController::class,'kendaraan']);
+Route::get('/', [webController::class,'index']);
+Route::get('/dashboard', [webController::class,'dashboard']);
+
+Route::get('/login', [loginController::class,'index']);
+Route::post('/login', [loginController::class,'auth']);
+Route::post('/register', [loginController::class,'register']);
+Route::post('/logout', [loginController::class,'logout']);

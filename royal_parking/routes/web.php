@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\webController;
 use App\Http\Controllers\loginController;
+use App\Http\Controllers\DashboardKendaraanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,3 +24,5 @@ Route::get('/login', [loginController::class,'index']);
 Route::post('/login', [loginController::class,'auth']);
 Route::post('/register', [loginController::class,'register']);
 Route::post('/logout', [loginController::class,'logout']);
+
+Route::resource('/dashboard/parking', DashboardKendaraanController::class)->middleware('auth');

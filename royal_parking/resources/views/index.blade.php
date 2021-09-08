@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
 
     <!-- TITLE OF SITE -->
-    <title>Travel</title>
+    <title>Royal Parking</title>
 
     <!-- favicon img -->
     <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
@@ -175,11 +175,11 @@
                         berbagai wilayah Indonesia.
                     </p>
                     <p>Dengan pengelolaan perpakiran yang telah dijalankan oleh ROYAL PARKING di beberapa properti dan
-                        rencana kerjasama dengan beberapa properti terbaru dalam waktu dekat ini. ROYAL PARKING saat
-                        ini telah merekrut Sumber Daya Manusia kurang lebih 500 orang. Sebagian dari Sumber Daya
+                        rencana kerjasama dengan beberapa properti terbaru dalam waktu dekat ini. ROYAL PARKING saat
+                        ini telah merekrut Sumber Daya Manusia kurang lebih 500 orang. Sebagian dari Sumber Daya
                         Manusia tersebut telah ditempatkan di beberapa properti yang dikelola ROYAL PARKING.Keberadaan
                         ROYAL PARKING di setiap properti akan selalu bersinergi dengan managemen properti, dalam bentuk
-                        menciptakan pelayanan dan kenyamanan bagi pengguna jasa parkir dan bersinergi dengan para
+                        menciptakan pelayanan dan kenyamanan bagi pengguna jasa parkir dan bersinergi dengan para
                         tenant. Dengan “Kemitraan” antara ROYAL PARKING dengan setiap properti dan pengguna jasa lahan
                         parkir saling menguntungkan.</p>
                 </div>
@@ -253,9 +253,9 @@
                     SERVICE
                 </h2>
                 <p>
-                    Kami hadir menawarkan kualitas dan kepercayaan akan layanan parkir yang lebih baik. Dengan dukungan
+                    Kami hadir menawarkan kualitas dan kepercayaan akan layanan parkir yang lebih baik. Dengan dukungan
                     karyawan terlatih dan sistem manajemen yang transparan, Anda dapat mengakses pendapatan dari layanan
-                    parkir dengan menganalisa sistem operasional, manajemen, perpajakan, serta keuangan parkir anda
+                    parkir dengan menganalisa sistem operasional, manajemen, perpajakan, serta keuangan parkir anda
                     secara langsung dan jelas, serta memastikan para pelanggan Anda mendapatkan kesan pertama yang baik,
                     dan memberikan pelayanan parkir yang aman dan nyaman kepada setiap client atau pengunjung.
                 </p>
@@ -271,7 +271,7 @@
                                 <h3>CAR PARK MANAGEMENT </h3>
                                 <div class="packages-para">
                                     <p>
-                                        Memiliki Pengalaman pengelolaan parkir dan didukung struktur organisasi yang
+                                        Memiliki Pengalaman pengelolaan parkir dan didukung struktur organisasi yang
                                         solid dan profesional untuk menciptakan keamanan dan kenyamanan yang maksimal
                                         bagi pengunjung dan client.
                                     </p>
@@ -516,7 +516,7 @@
                                     <p>
                                         Sumber Daya Manusia yang terampil, cerdas dan mandiri adalah hal yang sangat
                                         penting. Hal tersebut akan terwujud dengan program pengembangan yang akan dan
-                                        terus diterapkan dengan pembekalan materi dan praktek lapangan yang baik untuk
+                                        terus diterapkan dengan pembekalan materi dan praktek lapangan yang baik untuk
                                         mendapatkan service excellent.
                                     </p>
                                     <p class="offer-para">
@@ -582,7 +582,7 @@
                     </h2>
                     <p>
                         Sumber Daya Manusia yang terampil, cerdas dan mandiri adalah hal yang sangat penting. Hal
-                        tersebut akan terwujud dengan program pengembangan yang akan dan terus diterapkan dengan
+                        tersebut akan terwujud dengan program pengembangan yang akan dan terus diterapkan dengan
                         pembekalan materi dan praktek lapangan yang baik untuk mendapatkan service excellent.
                         Seluruh kandidat patut memiliki kemampuan komunikasi dan interpersonal yang baik. Hanya kandidat
                         yang terpilih yang akan diundang untuk proses wawancara lebih lanjut.

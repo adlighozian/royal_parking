@@ -97,7 +97,7 @@
                                         <li>
 
                                             <a href="/dashboard"> <button class="book-btn border-0">Dashboard
-                                            </button></a>
+                                                </button></a>
 
                                             {{-- <form action="/logout" method="POST">
                                                 @csrf
@@ -131,9 +131,11 @@
                                     The most secure and reliable parking
                                 </h2>
                                 <div class="about-btn">
-                                    <button class="about-view">
-                                        contact
-                                    </button>
+                                    <a href="/booking">
+                                        <button class="about-view">
+                                            booking tempat
+                                        </button>
+                                    </a>
                                 </div>
                                 <!--/.about-btn-->
                             </div>
@@ -218,6 +220,7 @@
 
     <BR>
     <BR>
+
 
     <section class="discount-offer">
         <div class="container">

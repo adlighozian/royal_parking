@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>GHZ Blog | Dashboard</title>
+    <title>Royal Parking | Dashboard</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/dashboard/">
 

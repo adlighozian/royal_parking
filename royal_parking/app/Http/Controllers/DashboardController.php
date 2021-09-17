@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\kendaraan;
+use App\Models\parkiran;
 use Illuminate\Http\Request;
 
-class DashboardKendaraanController extends Controller
+class DashboardController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,10 @@ class DashboardKendaraanController extends Controller
      */
     public function index()
     {
-        return view ('dashboard.post.index');
+        return view('dashboard.main.home', [
+            'parkiran' => parkiran::all()
+
+        ]);
     }
 
     /**
@@ -41,21 +44,23 @@ class DashboardKendaraanController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\kendaraan  $kendaraan
+     * @param  \App\Models\parkiran  $parkiran
      * @return \Illuminate\Http\Response
      */
-    public function show(kendaraan $kendaraan)
+    public function show(parkiran $parkiran)
     {
-        //
+        return view('dashboard.main.show', [
+            'nama' => $parkiran,
+        ]);
     }
 
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\kendaraan  $kendaraan
+     * @param  \App\Models\parkiran  $parkiran
      * @return \Illuminate\Http\Response
      */
-    public function edit(kendaraan $kendaraan)
+    public function edit(parkiran $parkiran)
     {
         //
     }
@@ -64,10 +69,10 @@ class DashboardKendaraanController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\kendaraan  $kendaraan
+     * @param  \App\Models\parkiran  $parkiran
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, kendaraan $kendaraan)
+    public function update(Request $request, parkiran $parkiran)
     {
         //
     }
@@ -75,10 +80,10 @@ class DashboardKendaraanController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\kendaraan  $kendaraan
+     * @param  \App\Models\parkiran  $parkiran
      * @return \Illuminate\Http\Response
      */
-    public function destroy(kendaraan $kendaraan)
+    public function destroy(parkiran $parkiran)
     {
         //
     }

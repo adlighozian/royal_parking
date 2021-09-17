@@ -3,10 +3,35 @@
 @section('container')
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Welcome back, {{ auth()->user()->name }}</h1>
+    <h1 class="h2">Parkiran </h1>
 </div>
 
-{{-- <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas> --}}
+
+<div class="container">
+    <div class="row">
+        @foreach ($parkiran as $parkiran)
+            <div class="col-md-4 mb-3">
+                <div class="card">
+
+                    <a href="/dashboard/{{ $parkiran->slug }}" class="text-decoration-none">
+                        <img class="card-img-top"
+                            src="https://source.unsplash.com/500x400?{{ $parkiran->gambar }}"
+                            alt="{{ $parkiran->gambar }}">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title"> <a href="/dashboard/{{ $parkiran->slug }}"
+                                class="text-decoration-none">
+                                {{ $parkiran->nama }} </a></h5>
+
+                        <p class="card-text">{{ $parkiran->nama }}</p>
+                        <a href="/dashboard/{{ $parkiran->nama }}" class="text-decoration-none btn btn-primary">Read
+                            more.. </a>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</div>
 
 
 

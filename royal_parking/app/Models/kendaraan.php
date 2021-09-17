@@ -11,6 +11,8 @@ class kendaraan extends Model
 
     protected $guarded = ['id'];
 
+    protected $with = ['parkiran'];
+
     public function parkiran()
     {
         return $this->belongsTo(parkiran::class);

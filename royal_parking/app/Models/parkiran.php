@@ -11,8 +11,21 @@ class parkiran extends Model
 
     protected $guarded = ['id'];
 
+    protected $with = ['kendaraan','booking'];
+
     public function kendaraan()
     {
         return $this->hasMany(kendaraan::class);
     }
+
+    public function booking()
+    {
+        return $this->hasMany(booking::class);
+    }
+
+    public function getRouteKeyName()
+    {
+        return 'slug';
+    }
+
 }

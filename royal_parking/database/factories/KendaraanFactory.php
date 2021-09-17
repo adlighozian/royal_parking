@@ -22,6 +22,12 @@ class KendaraanFactory extends Factory
     public function definition()
     {
         return [
+
+            'parkiran_id' => '1',
+            'slug' => 'test',
+            'jenis_kendaraan' => 'motor/mobil',
+            '2' => 'motor/mobil',
+
             //
         ];
     }

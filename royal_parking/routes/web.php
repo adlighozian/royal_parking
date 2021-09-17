@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\webController;
 use App\Http\Controllers\loginController;
-use App\Http\Controllers\DashboardKendaraanController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,11 +19,14 @@ use App\Http\Controllers\DashboardKendaraanController;
 
 
 Route::get('/', [webController::class,'index']);
-Route::get('/dashboard', [webController::class,'dashboard']);
+// Route::get('/dashboard', [webController::class,'dashboard']);
+// Route::get('/dashboard/{parkiran:slug}', [webController::class, 'parkiran_slug']);
 
 Route::get('/login', [loginController::class,'index']);
 Route::post('/login', [loginController::class,'auth']);
 Route::post('/register', [loginController::class,'register']);
 Route::post('/logout', [loginController::class,'logout']);
 
-Route::resource('/dashboard/parking', DashboardKendaraanController::class)->middleware('auth');
+Route::resource('/booking', BookingController::class);
+
+Route::resource('/dashboard', DashboardController::class);

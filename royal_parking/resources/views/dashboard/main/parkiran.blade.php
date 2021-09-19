@@ -2,11 +2,10 @@
 
 @section('container')
 
-{{ $nama }}
 
     <div class="card mt-3">
         <div class="card-header">
-            <h5 class="card-title">{{ $nama }}</h5>
+            <h5 class="card-title">nama parkiran</h5>
 
         </div>
         <!-- /.card-header -->

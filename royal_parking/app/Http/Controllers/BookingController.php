@@ -27,6 +27,9 @@ class BookingController extends Controller
 
     public function store(Request $request)
     {
+
+
+
         $ValidateData = $request->validate([
             'status' => 'required',
             'parkiran_id' => 'required',
@@ -35,8 +38,12 @@ class BookingController extends Controller
             'no_polisi' => 'required',
             'durasi' => 'required',
             'no_tiket' => 'required',
-            'foto' => 'required',
+            'foto' => 'image|file|max:1024',
         ]);
+
+        if($request->file('foto')){
+            $ValidateData['foto'] = $request->file('foto')->store('post-images');
+        }
 
         booking::create($ValidateData);
 

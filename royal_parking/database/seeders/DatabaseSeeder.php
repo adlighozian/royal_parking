@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
             'name' => 'admin',
             'username' => 'admin',
             'email' => 'admin@a.com',
-            'password' => 'admin'
+            'password' => bcrypt('admin'),
         ]);
 
         parkiran::create([

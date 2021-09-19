@@ -57,8 +57,8 @@
                     <form action="/login" method="post">
                         @csrf
                         <div class="group">
-                            <label for="user" class="label">Email</label>
-                            <input id="user" name="email" type="text" class="form-control" autofocus required>
+                            <label for="user" class="label">username</label>
+                            <input id="user" name="username" type="text" class="form-control" autofocus required>
                         </div>
                         <div class="group">
                             <label for="pass" class="label">Password</label>

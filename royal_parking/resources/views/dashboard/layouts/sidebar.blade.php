@@ -6,12 +6,14 @@
                 Dashboard
             </a>
         </li>
-        {{-- <li class="nav-item">
-            <a class="nav-link {{ Request::is('dashboard/parking') ? 'active' : '' }}" href="/dashboard/parking">
+
+        <li class="nav-item">
+            <a class="nav-link {{ Request::is('bookingdashboard*') ? 'active' : '' }}" href="/bookingdashboard">
                 <span data-feather="file-text"></span>
-                Parking
+                Booking
             </a>
-        </li> --}}
+        </li>
+
 
         {{-- <li class="nav-item">
             <a class="nav-link" href="#">

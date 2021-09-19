@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\booking;
 use App\Models\parkiran;
 use App\Models\kendaraan;
 use App\Models\user;
@@ -34,6 +35,14 @@ class webController extends Controller
     public function booking()
     {
         return view('booking.main.booking');
+    }
+
+    public function exel()
+    {
+        return view('dashboard.booking.exel', [
+            'post' => booking::all()
+
+        ]);
     }
 
 }

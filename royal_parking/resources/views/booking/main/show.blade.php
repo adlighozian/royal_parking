@@ -10,7 +10,7 @@
                <h3 class="text-center"> {{ $nama }}</h3>
             </div>
             <div class="col-md-6">
-                <form action="/booking" method="POST">
+                <form action="/booking" method="POST" enctype="multipart/form-data">
                     @csrf
 
                     <input type="hidden" name="status" class="form-control" value="0">

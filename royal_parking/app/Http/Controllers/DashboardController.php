@@ -49,7 +49,7 @@ class DashboardController extends Controller
      */
     public function show(parkiran $parkiran)
     {
-        return view('dashboard.main.show', [
+        return view('dashboard.main.parkiran', [
             'nama' => $parkiran,
         ]);
     }

@@ -19,7 +19,7 @@ class loginController extends Controller
     {
 
         $dential = $req->validate([
-            'email' => 'required',
+            'username' => 'required',
             'password' => 'required'
         ]);
 

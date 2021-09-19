@@ -11,7 +11,6 @@ class booking extends Model
 
     protected $guarded = ['id'];
 
-    protected $with = ['parkiran'];
 
     public function parkiran()
     {

@@ -1,11 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\webController;
-use App\Http\Controllers\loginController;
-use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\BookingDashboardController;
-use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,17 +13,6 @@ use App\Http\Controllers\BookingController;
 |
 */
 
-
-Route::get('/', [webController::class,'index']);
-Route::get('/exel', [webController::class,'exel']);
-
-Route::get('/login', [loginController::class,'index']);
-Route::post('/login', [loginController::class,'auth']);
-Route::post('/register', [loginController::class,'register']);
-Route::post('/logout', [loginController::class,'logout']);
-
-Route::resource('/booking', BookingController::class);
-
-Route::resource('/dashboard', DashboardController::class);
-
-Route::resource('/bookingdashboard', BookingDashboardController::class);
+Route::get('/', function () {
+    return view('welcome');
+});

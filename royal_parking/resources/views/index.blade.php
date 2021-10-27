@@ -16,9 +16,6 @@
     <!-- TITLE OF SITE -->
     <title>Royal Parking</title>
 
-    <!-- favicon img -->
-    <link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png" />
-
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
@@ -50,6 +47,7 @@
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
+    <link href='/img/logo.png' rel='shortcut icon'>
 
 </head>
 
@@ -63,7 +61,7 @@
                     <div class="col-sm-2">
                         <div class="logo">
                             <a href="#home">
-                                Royal<span>Parking</span>
+                                <img src="/img/a.png" alt="package-place">
                             </a>
                         </div><!-- /.logo-->
                     </div><!-- /.col-->
@@ -82,11 +80,13 @@
                                     <li class="smooth-menu"><a href="#home">Home</a></li>
                                     <li class="smooth-menu"><a href="#gallery">About</a></li>
                                     <li class="smooth-menu"><a href="#pack">Services </a></li>
-                                    <li class="smooth-menu"><a href="#testi">Review</a></li>
                                     <li class="smooth-menu"><a href="#spo">Academy</a></li>
                                     <li class="smooth-menu"><a href="#blog">Contact</a></li>
+                                    <li>
+                                        <a href="/login"> <button class="book-btn border-0">Daftar</button></a>
+                                    </li>
 
-                                    @guest
+                                    {{-- @guest
                                         <li>
                                             <a href="/login"> <button class="book-btn border-0">Login
                                                 </button></a>
@@ -99,13 +99,13 @@
                                             <a href="/dashboard"> <button class="book-btn border-0">Dashboard
                                                 </button></a>
 
-                                            {{-- <form action="/logout" method="POST">
+                                            <form action="/logout" method="POST">
                                                 @csrf
                                                 <button type="submit" class="book-btn border-0"><i
                                                         class="bi bi-box-arrow-left"></i>Logout</button>
-                                            </form> --}}
+                                            </form>
                                         </li>
-                                    @endauth
+                                    @endauth --}}
 
                                 </ul>
                             </div>
@@ -133,7 +133,7 @@
                                 <div class="about-btn">
                                     <a href="/booking">
                                         <button class="about-view">
-                                            booking tempat
+                                            Daftar Sekarang
                                         </button>
                                     </a>
                                 </div>
@@ -265,7 +265,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="https://source.unsplash.com/370x303?parking" alt="package-place">
+                            <img src="/img/1.png" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>CAR PARK MANAGEMENT </h3>
                                 <div class="packages-para">
@@ -281,7 +281,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="https://source.unsplash.com/370x302?parking" alt="package-place">
+                            <img src="/img/2.png" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>TRAFFIC DESIGN CONSULTANT</h3>
                                 <div class="packages-para">
@@ -296,7 +296,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="https://source.unsplash.com/370x301?parking" alt="package-place">
+                            <img src="/img/3.png" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>MAINTAINANCE PARKING EQUIPMENT</h3>
                                 <div class="packages-para">
@@ -323,7 +323,7 @@
     <!--packages end-->
 
     <!-- testemonial Start -->
-    <section class="testemonial" id="testi">
+    {{-- <section class="testemonial" id="testi">
         <div class="container">
 
             <div class="gallary-header text-center">
@@ -498,7 +498,7 @@
         </div>
 
 
-    </section>
+    </section> --}}
 
 
     <!--special-offer start-->
@@ -626,7 +626,7 @@
     <!--subscribe end-->
 
     <!-- footer-copyright start -->
-    <footer class="footer-copyright">
+    {{-- <footer class="footer-copyright">
         <div class="container">
             <hr>
             <div class="foot-icons ">
@@ -646,11 +646,196 @@
             <!--/.scroll-Top-->
         </div><!-- /.container-->
 
-    </footer><!-- /.footer-copyright-->
+    </footer><!-- /.footer-copyright--> --}}
     <!-- footer-copyright end -->
 
+    <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
 
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
 
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for our newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Email address</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
 
     <script src="assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

@@ -45,13 +45,14 @@ font-family: 'Poppins', sans-serif;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
     position: relative;
     font-size: 14px;
     color: #222222;
-    background: #fff;
+    background: #2e2e2e;
     font-family: 'Poppins', sans-serif;
     max-width: 1920px;
     margin: 0 auto;
@@ -76,13 +77,13 @@ h4,
 h5,
 h6 {
     margin: 0;
-    color: #222222;
+    color: white;
     text-transform: capitalize;
 }
 
 p {
     margin: 0;
-    color: #666666;
+    color: white;
     font-size: 14px;
 }
 
@@ -162,7 +163,7 @@ body {
 .is-sticky .header-area:after {
     position: absolute;
     content: '';
-    background: rgba(77, 78, 84, 1);
+    background: rgb(0, 0, 0);
     height: 100%;
     width: 100%;
     top: 0;
@@ -188,7 +189,7 @@ body {
 .logo a,
 .logo a:hover,
 .logo a:focus {
-    color: #fff;
+    color: yellow;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
@@ -229,7 +230,7 @@ body {
 
 .main-menu .nav li a {
     padding: 11px 0 29px;
-    color: #fff;
+    color: #e20606;
     font-size: 16px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
@@ -243,7 +244,7 @@ body {
 .main-menu .nav li.active a,
 .main-menu .nav li a:hover,
 .main-menu .nav li a:focus {
-    color: #00d8ff;
+    color: #e5cd1d;
     background-color: transparent;
 }
 
@@ -264,7 +265,7 @@ body {
 
 .main-menu .nav li.active a:before,
 .main-menu .nav a:hover:before {
-    background: #00d8ff;
+    background: white;
     width: 100%;
 }
 
@@ -298,13 +299,13 @@ body {
 /*book-btn*/
 
 .book-btn {
-    background: #00d8ff;
-    border: 1px solid #00d8ff;
+    background: #e5cd1d;
+    border: 1px solid #e20606;
     width: 120px;
     height: 40px;
     white-space: nowrap;
     text-align: center;
-    color: #fff;
+    color: #e20606;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
@@ -317,9 +318,9 @@ body {
 }
 
 .book-btn:hover {
-    color: #fff;
-    background: #00d8d5;
-    border: 1px solid #00d8d5;
+    color: #e5cd1d;
+    background: #e20606;
+    border: 1px solid #e5cd1d;
 }
 
 
@@ -335,7 +336,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url(https://source.unsplash.com/1920x1000?parking)no-repeat;
+    background: url("/img/b1.png")no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 1000px;
@@ -348,7 +349,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 122, 207, .4);
+    background: rgba(0, 0, 0, 0.4);
 }
 
 
@@ -386,12 +387,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #00d8ff;
-    border: 1px solid #00d8ff;
+    background: #e5cd1d;
+    border: 1px solid #e20606;
     width: 200px;
     height: 60px;
     white-space: nowrap;
-    color: #fff;
+    color: #e20606;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -405,10 +406,10 @@ body {
 }
 
 .about-btn:hover .about-view {
-    color: #fff;
-    background: #00d8d5;
+    color: #e5cd1d;
+    background: #e20606;
     box-shadow: 0 5px 20px rgba(14, 15, 18, .7);
-    border: 1px solid #00d8d5;
+    border: 1px solid #e5cd1d;
 }
 
 .travel-mrt-0 {
@@ -506,7 +507,7 @@ body {
 }
 
 .single-tab-select-box h2 {
-    color: #565a5c;
+    color: white;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -780,7 +781,7 @@ body {
 }
 
 .service-content h2 a {
-    color: #565a5c;
+    color: white;
     font-size: 16px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
@@ -800,9 +801,7 @@ body {
         6. Gallery
 --------------------------------------*/
 
-.gallery {
-    background: #f9f9f9;
-}
+.gallery {}
 
 .gallery-details {
     margin-top: 117px;
@@ -818,7 +817,7 @@ body {
 
 .gallary-header h2 {
     position: relative;
-    color: #565a5c;
+    color: white;
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize;
@@ -828,7 +827,7 @@ body {
 
 .gallary-header p {
     position: relative;
-    color: #aaa;
+    color: white;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     margin-top: 17px;
@@ -936,7 +935,7 @@ body {
 .discount-offer {
     padding: 120px 0;
     position: relative;
-    background: url(https://source.unsplash.com/1920x551?traffic)no-repeat center fixed;
+    background: url("/img/b1.png")no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -949,7 +948,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 122, 207, .5);
+    background: rgba(0, 0, 0, 0.5);
     z-index: -1;
 }
 
@@ -1043,6 +1042,8 @@ body {
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
+    border-radius: 5px;
+    background: black;
 }
 
 .single-package-item-txt {
@@ -1051,12 +1052,13 @@ body {
 
 .single-package-item img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .single-package-item h3 {
     position: relative;
     font-size: 20px;
-    color: #565a5c;
+    color: #fdfdfd;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     padding: 20px 0;
@@ -1254,7 +1256,7 @@ body {
 
 .special-offer {
     position: relative;
-    background: url(https://source.unsplash.com/1920x1000?work)no-repeat center;
+    background: url("/img/b1.png")no-repeat center;
     background-size: cover;
     z-index: 1;
 }
@@ -1266,7 +1268,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 216, 255, .6);
+    background: rgba(0, 0, 0, 0.6);
     z-index: -1;
 }
 
@@ -1396,7 +1398,6 @@ body {
 --------------------------------------*/
 
 .blog {
-    background: #fff;
     padding: 115px 0 92px;
 }
 
@@ -1537,7 +1538,7 @@ body {
 .subscribe {
     position: relative;
     padding: 120px 0;
-    background: url(https://source.unsplash.com/1920x433?work)no-repeat center fixed;
+    background: url("/img/b1.png")no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }

@@ -80,10 +80,11 @@
                                     <li class="smooth-menu"><a href="#home">Home</a></li>
                                     <li class="smooth-menu"><a href="#gallery">About</a></li>
                                     <li class="smooth-menu"><a href="#pack">Services </a></li>
-                                    <li class="smooth-menu"><a href="#spo">Academy</a></li>
+                                    <li class="smooth-menu"><a href="#spo">Career</a></li>
                                     <li class="smooth-menu"><a href="#blog">Contact</a></li>
                                     <li>
-                                        <a href="/login"> <button class="book-btn border-0">Daftar</button></a>
+                                        <a href="https://forms.gle/C1R9TjNmu4KkkUWb7"> <button
+                                                class="book-btn border-0">Daftar</button></a>
                                     </li>
 
                                     {{-- @guest
@@ -130,13 +131,13 @@
                                 <h2>
                                     The most secure and reliable parking
                                 </h2>
-                                <div class="about-btn">
+                                {{-- <div class="about-btn">
                                     <a href="/booking">
                                         <button class="about-view">
                                             Daftar Sekarang
                                         </button>
                                     </a>
-                                </div>
+                                </div> --}}
                                 <!--/.about-btn-->
                             </div>
                             <!--/.about-us-txt-->
@@ -229,11 +230,11 @@
                     <div class="dicount-offer-content text-center">
 
                         <!--/.campaign-timer-->
-                        <div class="about-btn">
-                            <a href="#blog"><button class="about-view discount-offer-btn">
-                                    Daftar
+                        {{-- <div class="about-btn">
+                            <a href="#blog"><button class="about-view ">
+                                    Daftar Coba
                                 </button></a>
-                        </div>
+                        </div> --}}
                         <!--/.about-btn-->
 
                     </div><!-- /.dicount-offer-content-->
@@ -509,32 +510,39 @@
                     <div class="col-sm-8">
                         <div class="single-special-offer">
                             <div class="single-special-offer-txt">
-                                <h2>PARKING ACADEMY</h2>
+                                <h2>CAREER</h2>
 
                                 <div class="packages-para special-offer-para">
                                     <p>
                                         Sumber Daya Manusia yang terampil, cerdas dan mandiri adalah hal yang sangat
-                                        penting. Hal tersebut akan terwujud dengan program pengembangan yang akan dan
-                                        terus diterapkan dengan pembekalan materi dan praktek lapangan yang baik untuk
-                                        mendapatkan service excellent.
+                                        penting. Hal
+                                        tersebut akan terwujud dengan program pengembangan yang akan dan terus
+                                        diterapkan dengan
+                                        pembekalan materi dan praktek lapangan yang baik untuk mendapatkan service
+                                        excellent.
+                                        Seluruh kandidat patut memiliki kemampuan komunikasi dan interpersonal yang
+                                        baik. Hanya kandidat
+                                        yang terpilih yang akan diundang untuk proses wawancara lebih lanjut.
                                     </p>
 
                                 </div>
+
+
                                 <!--/.packages-para-->
                                 <div class="offer-btn-group">
                                     <div class="about-btn">
-                                        <button class="about-view packages-btn offfer-btn">
-                                            make tour
-                                        </button>
+                                        <a href="https://forms.gle/C1R9TjNmu4KkkUWb7">
+                                            <button class="about-view">
+                                                Daftar Sekarang
+                                            </button>
+                                        </a>
                                     </div>
-                                    <!--/.about-btn-->
-                                    <div class="about-btn">
-                                        <button class="about-view packages-btn">
-                                            book now
-                                        </button>
-                                    </div>
+                                    <br>
+
                                     <!--/.about-btn-->
                                 </div>
+                                <img src="img/pelamar.png" alt="offer-shape"
+                                    style="border: black solid 10px;margin-top:30px;">
                                 <!--/.offer-btn-group-->
                             </div>
                             <!--/.single-special-offer-txt-->
@@ -568,7 +576,7 @@
     <!--special-offer end-->
 
     <!--blog start-->
-    <section id="blog" class="blog">
+    {{-- <section id="blog" class="blog">
         <div class="container">
             <div class="blog-details">
                 <div class="gallary-header text-center">
@@ -590,13 +598,13 @@
         </div>
         <!--/.container-->
 
-    </section>
+    </section> --}}
     <!--/.blog-->
     <!--blog end-->
 
 
     <!--subscribe start-->
-    <section id="subs" class="subscribe">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="subscribe-title text-center">
                 <h2>
@@ -604,26 +612,53 @@
                 </h2>
                 <p>
                     Apabila Anda ingin mengetahui lebih lanjut mengenai informasi apapun yang ada pada website ini,
-                    jangan ragu untuk menghubungi kami melalui email kami.
+                    jangan ragu untuk menghubungi kami melalui whatsapp kami.
                 </p>
             </div>
-            <form>
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                        <div class="custom-input-group">
-                            <input type="email" class="form-control" placeholder="Enter your Email Here">
-                            <button class="appsLand-btn subscribe-btn">Kirim</button>
-                            <div class="clearfix"></div>
-                            <i class="fa fa-envelope"></i>
-                        </div>
+
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                    <div class="test" style="text-align: center">
+                        <a href="https://wa.me/6287716877880"><button class="appsLand-btn subscribe-btn">Kirim</button></a>
 
                     </div>
+
                 </div>
-            </form>
+            </div>
+
         </div>
 
     </section>
     <!--subscribe end-->
+
+    <!-- FOOTER -->
+    <footer class="w-100 py-4 flex-shrink-0">
+        <div class="container py-4">
+            <div class="row gy-4 gx-5">
+
+                <div class="col-lg-3 col-md-6">
+                    <img src="/img/a.png" alt="package-place">
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Contact us</h4><br>
+                    <img src="/img/whatsapp.png" alt="package-place"><span> (+62) 87716877880</span><br>
+                    <img src="/img/mail.png" alt="package-place"><span> hrd.royalparking5@gmail.com</span>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-white mb-3">Locate us</h4><br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.290185259734!2d106.85969291458879!3d-6.225417395493537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f38326e17a35%3A0xa0882bd3151f8e0b!2sBlok%20A%2C%20Jl.%20Abdullah%20Syafei%20No.29%2C%20RT.1%2FRW.3%2C%20Kb.%20Baru%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012830!5e0!3m2!1sid!2sid!4v1635403410248!5m2!1sid!2sid"
+                        width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <p style="color: white">JL. KH. Abdullah Syafei No.29A Blok A Kebon Baru Tebet Jakarta Selatan</p>
+                </div>
+            </div>
+        </div>
+        <p style="text-align: center;margin-top:50px;" class="small text-muted mb-0">&copy; Copyrights. All rights
+            reserved. <a class="text-primary" href="#">PT. Badra Abadi Perkasa</a></p>
+    </footer>
 
     <!-- footer-copyright start -->
     {{-- <footer class="footer-copyright">
@@ -649,193 +684,8 @@
     </footer><!-- /.footer-copyright--> --}}
     <!-- footer-copyright end -->
 
-    <!-- Footer -->
-<footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
-      <section class="mb-4">
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-facebook-f"></i
-        ></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-twitter"></i
-        ></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-google"></i
-        ></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-instagram"></i
-        ></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-linkedin-in"></i
-        ></a>
-
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="fab fa-github"></i
-        ></a>
-      </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Form -->
-      <section class="">
-        <form action="">
-          <!--Grid row-->
-          <div class="row d-flex justify-content-center">
-            <!--Grid column-->
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-md-5 col-12">
-              <!-- Email input -->
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example21" class="form-control" />
-                <label class="form-label" for="form5Example21">Email address</label>
-              </div>
-            </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-auto">
-              <!-- Submit button -->
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-            <!--Grid column-->
-          </div>
-          <!--Grid row-->
-        </form>
-      </section>
-      <!-- Section: Form -->
-
-      <!-- Section: Text -->
-      <section class="mb-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
-        </p>
-      </section>
-      <!-- Section: Text -->
-
-      <!-- Section: Links -->
-      <section class="">
-        <!--Grid row-->
-        <div class="row">
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-          <!--Grid column-->
-        </div>
-        <!--Grid row-->
-      </section>
-      <!-- Section: Links -->
-    </div>
-    <!-- Grid container -->
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-    <!-- Copyright -->
-  </footer>
-  <!-- Footer -->
+    <!--Boxicons-->
+    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
 
     <script src="assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

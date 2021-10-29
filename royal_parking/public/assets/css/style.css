@@ -45,7 +45,6 @@ font-family: 'Poppins', sans-serif;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
-    color: white;
 }
 
 body {
@@ -70,6 +69,14 @@ a:focus {
     margin: 0;
 }
 
+p {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
 h1,
 h2,
 h3,
@@ -79,12 +86,6 @@ h6 {
     margin: 0;
     color: white;
     text-transform: capitalize;
-}
-
-p {
-    margin: 0;
-    color: white;
-    font-size: 14px;
 }
 
 img {
@@ -387,12 +388,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #e5cd1d;
-    border: 1px solid #e20606;
+    background: white;
+    border: 1px solid black;
     width: 200px;
     height: 60px;
     white-space: nowrap;
-    color: #e20606;
+    color: black;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -406,10 +407,10 @@ body {
 }
 
 .about-btn:hover .about-view {
-    color: #e5cd1d;
-    background: #e20606;
+    color: white;
+    background: black;
     box-shadow: 0 5px 20px rgba(14, 15, 18, .7);
-    border: 1px solid #e5cd1d;
+    border: 1px solid white;
 }
 
 .travel-mrt-0 {
@@ -1612,7 +1613,7 @@ body {
 /*appsLand-btn*/
 
 .appsLand-btn {
-    background: #00d8ff;
+    background: #e20606;
     display: inline-block;
     padding: 17px 54px;
     text-decoration: none;
@@ -1868,5 +1869,7 @@ body {
     border-radius: 50%;
 }
 
-
-/*========================Thank you=================*/
+footer {
+    padding: 50px 0;
+    background: black;
+}

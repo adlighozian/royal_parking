@@ -83,8 +83,8 @@
                                     <li class="smooth-menu"><a href="#spo">Career</a></li>
                                     <li class="smooth-menu"><a href="#blog">Contact</a></li>
                                     <li>
-                                        <a href="https://forms.gle/C1R9TjNmu4KkkUWb7"> <button
-                                                class="book-btn border-0">Daftar</button></a>
+                                        <a href="/login"> <button
+                                                class="book-btn border-0">Login</button></a>
                                     </li>
 
                                     {{-- @guest
@@ -529,7 +529,7 @@
 
 
                                 <!--/.packages-para-->
-                                <div class="offer-btn-group">
+                                <div class="offer-btn-group2">
                                     <div class="about-btn">
                                         <a href="https://forms.gle/C1R9TjNmu4KkkUWb7">
                                             <button class="about-view">

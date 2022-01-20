@@ -13,6 +13,8 @@
     <!-- Style CSS -->
     <link rel="stylesheet" href="/css/style.css">
 
+    <link href='/img/logo1.png' rel='shortcut icon'>
+
     <title>Royal Parking | Login </title>
 </head>
 

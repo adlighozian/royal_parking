@@ -1,6 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\webController;
+use App\Http\Controllers\loginController;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\BookingDashboardController;
+use App\Http\Controllers\BookingController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,19 +18,35 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
 
-Route::get('/login', function () {
-    return view('auth.login');
-});
+Route::get('/', [webController::class,'index']);
+Route::get('/exel', [webController::class,'exel']);
 
-Route::get('/dashboard', function () {
-    return view('dashboard.main.home');
-});
+Route::get('/login', [loginController::class,'index']);
+Route::post('/login', [loginController::class,'auth']);
+Route::post('/register', [loginController::class,'register']);
+Route::post('/logout', [loginController::class,'logout']);
 
-Route::get('/bookingdashboard', function () {
-    return view('dashboard.main.parkiran');
-});
+Route::resource('/booking', BookingController::class);
 
+Route::resource('/dashboard', DashboardController::class);
+
+Route::resource('/bookingdashboard', BookingDashboardController::class);
+
+
+
+// Route::get('/', function () {
+//     return view('index');
+// });
+
+// Route::get('/login', function () {
+//     return view('auth.login');
+// });
+
+// Route::get('/dashboard', function () {
+//     return view('dashboard.main.home');
+// });
+
+// Route::get('/bookingdashboard', function () {
+//     return view('dashboard.main.parkiran');
+// });

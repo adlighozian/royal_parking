@@ -26,7 +26,7 @@
                             <td>{{ $loop->iteration }}</td>
                             <td>{{ $post->nama }}</td>
                             <td>{{ $post->parkiran->nama }}</td>
-                            <td> <a href="/bookingdashboard/{{ $post->id }}" class="badge bg-info"><span
+                            <td> <a href="#" class="badge bg-info"><span
                                         data-feather="eye"></span></a>
                             </td>
                             <td><img class="card-img-top"

@@ -13,6 +13,9 @@
 
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
+
+    <link href='/img/logo1.png' rel='shortcut icon'>
+
 </head>
 
 <body>

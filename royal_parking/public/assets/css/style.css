@@ -51,7 +51,7 @@ body {
     position: relative;
     font-size: 14px;
     color: #222222;
-    background: #2e2e2e;
+    background: #fff;
     font-family: 'Poppins', sans-serif;
     max-width: 1920px;
     margin: 0 auto;
@@ -69,14 +69,6 @@ a:focus {
     margin: 0;
 }
 
-p {
-    color: white;
-}
-
-span {
-    color: white;
-}
-
 h1,
 h2,
 h3,
@@ -84,8 +76,14 @@ h4,
 h5,
 h6 {
     margin: 0;
-    color: white;
+    color: #222222;
     text-transform: capitalize;
+}
+
+p {
+    margin: 0;
+    color: #666666;
+    font-size: 14px;
 }
 
 img {
@@ -164,7 +162,7 @@ body {
 .is-sticky .header-area:after {
     position: absolute;
     content: '';
-    background: rgb(0, 0, 0);
+    background: rgba(77, 78, 84, 1);
     height: 100%;
     width: 100%;
     top: 0;
@@ -190,7 +188,7 @@ body {
 .logo a,
 .logo a:hover,
 .logo a:focus {
-    color: yellow;
+    color: #fff;
     font-size: 24px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
@@ -231,7 +229,7 @@ body {
 
 .main-menu .nav li a {
     padding: 11px 0 29px;
-    color: #e20606;
+    color: #fff;
     font-size: 16px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
@@ -245,7 +243,7 @@ body {
 .main-menu .nav li.active a,
 .main-menu .nav li a:hover,
 .main-menu .nav li a:focus {
-    color: #e5cd1d;
+    color: #00d8ff;
     background-color: transparent;
 }
 
@@ -266,7 +264,7 @@ body {
 
 .main-menu .nav li.active a:before,
 .main-menu .nav a:hover:before {
-    background: white;
+    background: #00d8ff;
     width: 100%;
 }
 
@@ -300,13 +298,13 @@ body {
 /*book-btn*/
 
 .book-btn {
-    background: #e5cd1d;
-    border: 1px solid #e20606;
+    background: #00d8ff;
+    border: 1px solid #00d8ff;
     width: 120px;
     height: 40px;
     white-space: nowrap;
     text-align: center;
-    color: #e20606;
+    color: #fff;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
@@ -319,9 +317,9 @@ body {
 }
 
 .book-btn:hover {
-    color: #e5cd1d;
-    background: #e20606;
-    border: 1px solid #e5cd1d;
+    color: #fff;
+    background: #00d8d5;
+    border: 1px solid #00d8d5;
 }
 
 
@@ -337,7 +335,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    background: url("/img/b1.png")no-repeat;
+    background: url(https://source.unsplash.com/1920x1000?parking)no-repeat;
     background-size: cover;
     background-position: center;
     min-height: 1000px;
@@ -350,7 +348,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 122, 207, .4);
 }
 
 
@@ -388,12 +386,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: white;
-    border: 1px solid black;
+    background: #00d8ff;
+    border: 1px solid #00d8ff;
     width: 200px;
     height: 60px;
     white-space: nowrap;
-    color: black;
+    color: #fff;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -407,10 +405,10 @@ body {
 }
 
 .about-btn:hover .about-view {
-    color: white;
-    background: black;
+    color: #fff;
+    background: #00d8d5;
     box-shadow: 0 5px 20px rgba(14, 15, 18, .7);
-    border: 1px solid white;
+    border: 1px solid #00d8d5;
 }
 
 .travel-mrt-0 {
@@ -508,7 +506,7 @@ body {
 }
 
 .single-tab-select-box h2 {
-    color: white;
+    color: #565a5c;
     font-size: 20px;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
@@ -782,7 +780,7 @@ body {
 }
 
 .service-content h2 a {
-    color: white;
+    color: #565a5c;
     font-size: 16px;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
@@ -802,7 +800,9 @@ body {
         6. Gallery
 --------------------------------------*/
 
-.gallery {}
+.gallery {
+    background: #f9f9f9;
+}
 
 .gallery-details {
     margin-top: 117px;
@@ -818,7 +818,7 @@ body {
 
 .gallary-header h2 {
     position: relative;
-    color: white;
+    color: #565a5c;
     font-size: 30px;
     font-weight: 500;
     text-transform: capitalize;
@@ -828,7 +828,7 @@ body {
 
 .gallary-header p {
     position: relative;
-    color: white;
+    color: #aaa;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     margin-top: 17px;
@@ -936,7 +936,7 @@ body {
 .discount-offer {
     padding: 120px 0;
     position: relative;
-    background: url("/img/b1.png")no-repeat center fixed;
+    background: url(https://source.unsplash.com/1920x551?traffic)no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -949,7 +949,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 122, 207, .5);
     z-index: -1;
 }
 
@@ -1043,8 +1043,6 @@ body {
     -ms-transition: .5s;
     -o-transition: .5s;
     transition: .5s;
-    border-radius: 5px;
-    background: black;
 }
 
 .single-package-item-txt {
@@ -1053,13 +1051,12 @@ body {
 
 .single-package-item img {
     width: 100%;
-    border-radius: 5px;
 }
 
 .single-package-item h3 {
     position: relative;
     font-size: 20px;
-    color: #fdfdfd;
+    color: #565a5c;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     padding: 20px 0;
@@ -1257,7 +1254,7 @@ body {
 
 .special-offer {
     position: relative;
-    background: url("/img/b1.png")no-repeat center;
+    background: url(https://source.unsplash.com/1920x1000?work)no-repeat center;
     background-size: cover;
     z-index: 1;
 }
@@ -1269,7 +1266,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 216, 255, .6);
     z-index: -1;
 }
 
@@ -1399,6 +1396,7 @@ body {
 --------------------------------------*/
 
 .blog {
+    background: #fff;
     padding: 115px 0 92px;
 }
 
@@ -1539,7 +1537,7 @@ body {
 .subscribe {
     position: relative;
     padding: 120px 0;
-    background: url("/img/b1.png")no-repeat center fixed;
+    background: url(https://source.unsplash.com/1920x433?work)no-repeat center fixed;
     background-size: cover;
     z-index: 1;
 }
@@ -1613,7 +1611,7 @@ body {
 /*appsLand-btn*/
 
 .appsLand-btn {
-    background: #e20606;
+    background: #00d8ff;
     display: inline-block;
     padding: 17px 54px;
     text-decoration: none;
@@ -1870,6 +1868,11 @@ body {
 }
 
 footer {
+    background: #565a5c;
     padding: 50px 0;
-    background: black;
 }
+
+
+/* .gambar_1 {
+    color: white;
+} */

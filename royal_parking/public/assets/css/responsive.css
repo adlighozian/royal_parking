@@ -95,17 +95,7 @@
 
 /*max-width:991px*/
 
-@media screen and (max-width:768px) {
-    footer iframe {
-        width: 300px;
-    }
-    #spo {
-        text-align: center;
-    }
-    #spo .offer-btn-group {
-        margin: auto;
-    }
-}
+@media screen and (max-width:768px) {}
 
 
 /*max-width:768px*/
@@ -244,6 +234,13 @@
     .single-special-shape-txt {
         left: 30px;
     }
+    .gambar_2 {
+        margin-top: 250px;
+    }
+    .gambar_1 {
+        text-align: center;
+        margin-left: 55px;
+    }
 }
 
 
@@ -293,6 +290,15 @@
         padding-right: 0px;
         font-size: 13px;
     }
+    footer iframe {
+        width: 300px;
+    }
+    #spo {
+        text-align: center;
+    }
+    #spo .offer-btn-group {
+        margin: auto;
+    }
 }
 
 
@@ -311,6 +317,15 @@
     }
     .subscribe-title p {
         font-size: 14px;
+    }
+    footer iframe {
+        width: 300px;
+    }
+    #spo {
+        text-align: center;
+    }
+    #spo .offer-btn-group {
+        margin: auto;
     }
 }
 

@@ -16,6 +16,9 @@
     <!-- TITLE OF SITE -->
     <title>Royal Parking</title>
 
+    <!-- favicon img -->
+    <link href='/img/logo1.png' rel='shortcut icon'>
+
     <!--font-awesome.min.css-->
     <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
@@ -47,7 +50,6 @@
     <!--responsive.css-->
     <link rel="stylesheet" href="assets/css/responsive.css" />
 
-    <link href='/img/logo.png' rel='shortcut icon'>
 
 </head>
 
@@ -60,8 +62,8 @@
                 <div class="row">
                     <div class="col-sm-2">
                         <div class="logo">
-                            <a href="#home">
-                                <img src="/img/a.png" alt="package-place">
+                            <a href="">
+                                Royal<span>Parking</span>
                             </a>
                         </div><!-- /.logo-->
                     </div><!-- /.col-->
@@ -80,14 +82,11 @@
                                     <li class="smooth-menu"><a href="#home">Home</a></li>
                                     <li class="smooth-menu"><a href="#gallery">About</a></li>
                                     <li class="smooth-menu"><a href="#pack">Services </a></li>
+                                    <li class="smooth-menu"><a href="#testi">Review</a></li>
                                     <li class="smooth-menu"><a href="#spo">Career</a></li>
                                     <li class="smooth-menu"><a href="#blog">Contact</a></li>
-                                    <li>
-                                        <a href="/login"> <button
-                                                class="book-btn border-0">Login</button></a>
-                                    </li>
 
-                                    {{-- @guest
+                                    @guest
                                         <li>
                                             <a href="/login"> <button class="book-btn border-0">Login
                                                 </button></a>
@@ -100,13 +99,13 @@
                                             <a href="/dashboard"> <button class="book-btn border-0">Dashboard
                                                 </button></a>
 
-                                            <form action="/logout" method="POST">
+                                            {{-- <form action="/logout" method="POST">
                                                 @csrf
                                                 <button type="submit" class="book-btn border-0"><i
                                                         class="bi bi-box-arrow-left"></i>Logout</button>
-                                            </form>
+                                            </form> --}}
                                         </li>
-                                    @endauth --}}
+                                    @endauth
 
                                 </ul>
                             </div>
@@ -131,13 +130,13 @@
                                 <h2>
                                     The most secure and reliable parking
                                 </h2>
-                                {{-- <div class="about-btn">
+                                <div class="about-btn">
                                     <a href="/booking">
                                         <button class="about-view">
-                                            Daftar Sekarang
+                                            booking tempat
                                         </button>
                                     </a>
-                                </div> --}}
+                                </div>
                                 <!--/.about-btn-->
                             </div>
                             <!--/.about-us-txt-->
@@ -229,13 +228,17 @@
                 <div class="col-sm-12">
                     <div class="dicount-offer-content text-center">
 
+
+
+
                         <!--/.campaign-timer-->
-                        {{-- <div class="about-btn">
-                            <a href="#blog"><button class="about-view ">
-                                    Daftar Coba
+                        <div class="about-btn">
+                            <a href="#"><button class="about-view discount-offer-btn">
+                                    join now
                                 </button></a>
-                        </div> --}}
+                        </div>
                         <!--/.about-btn-->
+
 
                     </div><!-- /.dicount-offer-content-->
                 </div><!-- /.col-->
@@ -266,7 +269,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="/img/1.png" alt="package-place">
+                            <img src="https://source.unsplash.com/370x303?parking" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>CAR PARK MANAGEMENT </h3>
                                 <div class="packages-para">
@@ -282,7 +285,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="/img/2.png" alt="package-place">
+                            <img src="https://source.unsplash.com/370x302?parking" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>TRAFFIC DESIGN CONSULTANT</h3>
                                 <div class="packages-para">
@@ -297,7 +300,7 @@
 
                     <div class="col-md-4 col-sm-6">
                         <div class="single-package-item">
-                            <img src="/img/3.png" alt="package-place">
+                            <img src="https://source.unsplash.com/370x301?parking" alt="package-place">
                             <div class="single-package-item-txt">
                                 <h3>MAINTAINANCE PARKING EQUIPMENT</h3>
                                 <div class="packages-para">
@@ -324,7 +327,7 @@
     <!--packages end-->
 
     <!-- testemonial Start -->
-    {{-- <section class="testemonial" id="testi">
+    <section class="testemonial" id="testi">
         <div class="container">
 
             <div class="gallary-header text-center">
@@ -499,7 +502,7 @@
         </div>
 
 
-    </section> --}}
+    </section>
 
 
     <!--special-offer start-->
@@ -541,8 +544,19 @@
 
                                     <!--/.about-btn-->
                                 </div>
-                                <img src="img/pelamar.png" alt="offer-shape"
-                                    style="border: black solid 10px;margin-top:30px;">
+
+                                <div class="gambar_1">
+                                    <img src="img/pelamar.png" alt="offer-shape"
+                                        style="border: black solid 10px; float:left;margin-right:5px">
+                                </div>
+
+                                <div class="gambar_2" style="color:white;">
+                                    <img src="/img/whatsapp.png" alt="package-place"><span> (+62)
+                                        87716877880</span><br>
+                                    <img src="/img/mail.png" alt="package-place"><span>
+                                        hrd.royalparking5@gmail.com</span>
+                                </div>
+
                                 <!--/.offer-btn-group-->
                             </div>
                             <!--/.single-special-offer-txt-->
@@ -604,7 +618,7 @@
 
 
     <!--subscribe start-->
-    <section class="blog" id="blog">
+    <section id="blog" class="subscribe">
         <div class="container">
             <div class="subscribe-title text-center">
                 <h2>
@@ -612,20 +626,22 @@
                 </h2>
                 <p>
                     Apabila Anda ingin mengetahui lebih lanjut mengenai informasi apapun yang ada pada website ini,
-                    jangan ragu untuk menghubungi kami melalui whatsapp kami.
+                    jangan ragu untuk menghubungi kami melalui email kami.
                 </p>
             </div>
-
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-                    <div class="test" style="text-align: center">
-                        <a href="https://wa.me/6287716877880"><button class="appsLand-btn subscribe-btn">Kirim</button></a>
+            <form>
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+                        <div class="custom-input-group">
+                            <input type="email" class="form-control" placeholder="Enter your Email Here">
+                            <button class="appsLand-btn subscribe-btn">Kirim</button>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-envelope"></i>
+                        </div>
 
                     </div>
-
                 </div>
-            </div>
-
+            </form>
         </div>
 
     </section>
@@ -642,8 +658,10 @@
 
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact us</h4><br>
-                    <img src="/img/whatsapp.png" alt="package-place"><span> (+62) 87716877880</span><br>
-                    <img src="/img/mail.png" alt="package-place"><span> hrd.royalparking5@gmail.com</span>
+                    <img src="/img/whatsapp.png" style="color: white" alt="package-place"><span> (+62)
+                        87716877880</span><br>
+                    <img src="/img/mail.png" style="color: white" alt="package-place"><span>
+                        hrd.royalparking5@gmail.com</span>
 
                 </div>
 
@@ -660,32 +678,8 @@
             reserved. <a class="text-primary" href="#">PT. Badra Abadi Perkasa</a></p>
     </footer>
 
-    <!-- footer-copyright start -->
-    {{-- <footer class="footer-copyright">
-        <div class="container">
-            <hr>
-            <div class="foot-icons ">
-                <ul class="footer-social-links list-inline list-unstyled">
-                    <li><a href="#" target="_blank" class="foot-icon-bg-1"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" target="_blank" class="foot-icon-bg-2"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" target="_blank" class="foot-icon-bg-3"><i class="fa fa-instagram"></i></a></li>
-                </ul>
-                <p>&copy; 2021 <a href="#">magang</a>. All Right Reserved</p>
 
-            </div>
-            <!--/.foot-icons-->
-            <div id="scroll-Top">
-                <i class="fa fa-angle-double-up return-to-top" id="scroll-top" data-toggle="tooltip"
-                    data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
-            </div>
-            <!--/.scroll-Top-->
-        </div><!-- /.container-->
 
-    </footer><!-- /.footer-copyright--> --}}
-    <!-- footer-copyright end -->
-
-    <!--Boxicons-->
-    <script src="https://unpkg.com/boxicons@2.0.9/dist/boxicons.js"></script>
 
     <script src="assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
